@@ -47,6 +47,13 @@
     <pattern id="gridPat" width="42" height="42" patternUnits="userSpaceOnUse">
       <path d="M42 0H0V42" fill="none" stroke="#2A3B4D" stroke-width="0.6" opacity="0.35"/>
     </pattern>
+
+    <!-- typewriter reveal mask: rect grows then holds then snaps back to loop -->
+    <clipPath id="typeClip">
+      <rect x="260" y="96" width="0" height="78">
+        <animate attributeName="width" values="0;680;680;680;0;0" keyTimes="0;0.32;0.82;0.9;0.94;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#rb)">
@@ -117,9 +124,17 @@
     <text x="1174" y="40" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#4C6478">SYS.ONLINE</text>
     <text x="26" y="40" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#4C6478">GT-08</text>
 
-    <!-- title -->
-    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="#2E6E9E" opacity="0.55" filter="url(#blurSm)">CRISTOPHER MARTINEZ</text>
-    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="url(#textGrad)">CRISTOPHER MARTINEZ</text>
+    <!-- title: typewriter reveal -->
+    <g clip-path="url(#typeClip)">
+      <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="#2E6E9E" opacity="0.55" filter="url(#blurSm)">CRISTOPHER MARTINEZ</text>
+      <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="url(#textGrad)">CRISTOPHER MARTINEZ</text>
+    </g>
+
+    <!-- blinking terminal cursor that travels with the typing, then blinks in place -->
+    <rect y="106" width="4" height="52" fill="#D9924E">
+      <animate attributeName="x" values="266;266;946;946;946;266" keyTimes="0;0.02;0.32;0.82;0.9;0.92" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
 
     <text x="600" y="188" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="3" fill="#8FA6BA">FULL-STACK DEVELOPER · GUATEMALA 🇬🇹</text>
 
