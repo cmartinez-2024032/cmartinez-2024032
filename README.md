@@ -137,18 +137,31 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
-> ![Cisco Networking Academy](https://img.shields.io/badge/Cisco%20Networking%20Academy-1B2430?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
->
-> ### IT Essentials
->
-> Curso administrado por Cisco Networking Academy a través de KINAL. Cubre armado, reparación y mantenimiento de computadoras, sistemas operativos (Windows, Linux, OS X), redes LAN/Internet, dispositivos móviles y seguridad básica de usuario, datos y red.
->
-> ![Hardware](https://img.shields.io/badge/Hardware-1B2430?style=flat-square&logoColor=8FA6BA)
-> ![Networking](https://img.shields.io/badge/Networking-1B2430?style=flat-square&logo=cisco&logoColor=1BA0D7)
-> ![Sistemas Operativos](https://img.shields.io/badge/Sistemas%20Operativos-1B2430?style=flat-square&logoColor=6FA8D8)
-> ![Seguridad](https://img.shields.io/badge/Seguridad-1B2430?style=flat-square&logoColor=D9924E)
->
-> <sub>📍 Guatemala · KINAL &nbsp;·&nbsp; 📅 28/08/2024 &nbsp;·&nbsp; 👤 Instructor: Alvaro Calderón</sub>
+<table width="100%">
+<tr>
+<td width="100%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E6E9E,100:2E6E9E&height=3" width="100%" />
+
+### IT Essentials: PC Hardware and Software
+
+![Cisco Networking Academy](https://img.shields.io/badge/Cisco%20Networking%20Academy-1B2430?style=flat-square&logo=cisco&logoColor=1BA0D7)
+![KINAL](https://img.shields.io/badge/KINAL-1B2430?style=flat-square&logoColor=D9924E)
+
+<br>
+
+<img src="certs/it-essentials.png" width="70%" />
+
+<br><br>
+
+![Fecha](https://img.shields.io/badge/30%20Agosto%202024-1B2430?style=flat-square&logoColor=CBD5E1)
+![Emitido](https://img.shields.io/badge/Emitido%20por-Cisco-1B2430?style=flat-square&logo=cisco&logoColor=1BA0D7)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E6E9E,100:2E6E9E&height=3" width="100%" />
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -191,4 +204,5 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <div align="center">
 
+<sub>⚙️ Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
 </div>
