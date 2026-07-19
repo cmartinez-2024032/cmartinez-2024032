@@ -4,100 +4,58 @@
 
 <br><br>
 
-![Perfil](https://img.shields.io/badge/GitHub-cmartinez--2024032-2C5364?style=for-the-badge&logo=github&logoColor=5EEAD4&labelColor=0F2027)
+<img src="https://img.shields.io/badge/status-en_construcción_activa-6FE7B7?style=flat-square&labelColor=0A0E12" />
+<img src="https://img.shields.io/badge/base-Guatemala_🇬🇹-6FE7B7?style=flat-square&labelColor=0A0E12" />
+<img src="https://img.shields.io/badge/GitHub-cmartinez--2024032-6FE7B7?style=flat-square&labelColor=0A0E12&logo=github&logoColor=6FE7B7" />
 
 </div>
 
 <br>
 
-## 🧑‍💻 Sobre mí
+## `GET /about`
 
-- 🎓 Estudiante de desarrollo de software, enfocado en construir aplicaciones **full stack** completas.
-- 🍽️ Colaboré en el desarrollo de **Kinal Gourmet House**, un sistema de gestión de restaurante en equipo, con autenticación JWT, roles y API REST.
-- 🗣️ Trabajé en **GestorDeOpiniones**, una API backend en Node.js para gestión de opiniones, con autenticación y base de datos PostgreSQL.
-- 🔐 Participé en **AuthService**, un microservicio de autenticación con Docker y PostgreSQL.
-- 📱 Formo parte del desarrollo de una app en **React Native**, actualmente en progreso.
-- ⚡ Me gusta resolver problemas de arquitectura: autenticación, roles, integración entre servicios y bases de datos.
-- 🌱 Aprendiendo constantemente sobre microservicios, Docker y buenas prácticas de backend.
-
-<br>
-
-## 🛠️ Stack Tecnológico
-
-<div align="center">
+```
+{
+  "nombre": "Cristopher Martinez",
+  "rol": "Estudiante de desarrollo de software",
+  "enfoque": "Aplicaciones full stack completas",
+  "pasión": "Arquitectura: auth, roles, integración entre servicios y bases de datos",
+  "aprendiendo": ["microservicios", "Docker", "buenas prácticas de backend"]
+}
+```
 
 <br>
 
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css&theme=dark" />
-
-<br><br>
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java&theme=dark" />
-
-<br><br>
-
-**Bases de Datos**
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=dark" />
-
-<br><br>
-
-**Herramientas & DevOps**
-
-<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman&theme=dark" />
-
-</div>
-
-<br>
-
-## 🚀 Proyectos Destacados
+## `GET /stack`
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### 🍽️ Kinal Gourmet House
-Sistema de gestión de restaurante desarrollado **en equipo**: autenticación JWT, roles diferenciados por tipo de usuario y API REST completa con Docker y PostgreSQL.
+**`?capa=frontend`**
 
-`Node.js` `JWT` `Docker` `PostgreSQL`
-
-[![Repo](https://img.shields.io/badge/Ver_Repositorio-0F2027?style=flat-square&logo=github&logoColor=5EEAD4)](https://github.com/cmartinez-2024032/Kinal-Gourmet)
+<img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css&theme=dark" />
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### 🗣️ GestorDeOpiniones
-API backend para gestión de opiniones, desarrollada **en equipo**, con autenticación mediante JWT, variables de entorno configurables y base de datos PostgreSQL.
+**`?capa=backend`**
 
-`Node.js` `JWT` `PostgreSQL`
-
-[![Repo](https://img.shields.io/badge/Ver_Repositorio-0F2027?style=flat-square&logo=github&logoColor=5EEAD4)](https://github.com/cmartinez-2024032/GestorDeOpiniones)
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java&theme=dark" />
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### 🔐 AuthService
-Microservicio de autenticación **en equipo**, containerizado con Docker Compose y base de datos PostgreSQL, desarrollado para un proyecto de gestión deportiva.
+**`?capa=datos`**
 
-`Docker` `PostgreSQL` `Microservices`
-
-[![Repo](https://img.shields.io/badge/Ver_Repositorio-0F2027?style=flat-square&logo=github&logoColor=5EEAD4)](https://github.com/cmartinez-2024032/AuthService)
+<img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=dark" />
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### 📱 ReactNative
-App móvil **en desarrollo**, construida con React Native.
+**`?capa=infra`**
 
-`React Native` `JavaScript`
-
-[![Repo](https://img.shields.io/badge/Ver_Repositorio-0F2027?style=flat-square&logo=github&logoColor=5EEAD4)](https://github.com/cmartinez-2024032/ReactNative)
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman&theme=dark" />
 
 </td>
 </tr>
@@ -105,33 +63,70 @@ App móvil **en desarrollo**, construida con React Native.
 
 <br>
 
-## 📊 Estadísticas de GitHub
+## `GET /projects`
+
+<table width="100%">
+<tr>
+<th align="left">endpoint</th>
+<th align="left">estado</th>
+<th align="left">stack</th>
+<th align="left">repo</th>
+</tr>
+<tr>
+<td><code>/kinal-gourmet-house</code></td>
+<td><img src="https://img.shields.io/badge/200-OK-6FE7B7?style=flat-square&labelColor=10161D" /></td>
+<td><sub>Node.js · JWT · Docker · PostgreSQL</sub></td>
+<td><a href="https://github.com/cmartinez-2024032/Kinal-Gourmet">↗</a></td>
+</tr>
+<tr>
+<td><code>/gestor-opiniones</code></td>
+<td><img src="https://img.shields.io/badge/200-OK-6FE7B7?style=flat-square&labelColor=10161D" /></td>
+<td><sub>Node.js · JWT · PostgreSQL</sub></td>
+<td><a href="https://github.com/cmartinez-2024032/GestorDeOpiniones">↗</a></td>
+</tr>
+<tr>
+<td><code>/auth-service</code></td>
+<td><img src="https://img.shields.io/badge/200-OK-6FE7B7?style=flat-square&labelColor=10161D" /></td>
+<td><sub>Docker · PostgreSQL · Microservices</sub></td>
+<td><a href="https://github.com/cmartinez-2024032/AuthService">↗</a></td>
+</tr>
+<tr>
+<td><code>/react-native-app</code></td>
+<td><img src="https://img.shields.io/badge/102-PROCESSING-F2B84B?style=flat-square&labelColor=10161D" /></td>
+<td><sub>React Native · JavaScript</sub></td>
+<td><a href="https://github.com/cmartinez-2024032/ReactNative">↗</a></td>
+</tr>
+</table>
+
+<sub>Los proyectos marcados <code>200 OK</code> fueron desarrollados en equipo.</sub>
+
+<br>
+
+## `GET /stats`
 
 <div align="center">
 
-<img src="https://github-readme-stats-six-murex.vercel.app/api?username=cmartinez-2024032&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api?username=cmartinez-2024032&show_icons=true&count_private=true&hide_border=true&bg_color=0A0E12&title_color=6FE7B7&text_color=E7ECF2&icon_color=F2B84B" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&hide_border=true&background=0A0E12&ring=6FE7B7&fire=F2B84B&currStreakLabel=6FE7B7&sideLabels=E7ECF2&currStreakNum=E7ECF2&sideNums=E7ECF2&dates=6B7785&stroke=0A0E12" width="49%" />
 
-<img src="https://github-readme-stats-six-murex.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&hide_border=true&bg_color=0A0E12&title_color=6FE7B7&text_color=E7ECF2" width="49%" />
 
 </div>
 
 <br>
 
+## `GET /activity`
+
 <div align="center">
-
-### 🐍 Actividad de contribuciones
-
 <img src="https://raw.githubusercontent.com/cmartinez-2024032/cmartinez-2024032/output/github-contribution-grid-snake-dark.svg" width="100%" />
-
-<sub>✨ Animación generada automáticamente con GitHub Actions — ver instrucciones abajo</sub>
-
 </div>
 
 <br>
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,100:0F2027&height=100&section=footer" />
+<sub><code>&lt;/cristopher-martinez&gt;</code></sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E12,100:10161D&height=90&section=footer" />
 
 </div>
