@@ -145,7 +145,7 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=cmartinez-2024032&theme=algolia&no-frame=true&column=-1&margin-w=8&margin-h=8" width="100%" />
+<img src="https://github-profile-trophy-winning.vercel.app/?username=cmartinez-2024032&theme=algolia&no-frame=true&column=-1&margin-w=8&margin-h=8" width="100%" />
 
 <br><br>
 
@@ -167,5 +167,4 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <div align="center">
 
-<sub>⚙️ Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
 </div>
