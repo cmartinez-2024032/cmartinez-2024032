@@ -167,7 +167,7 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&pause=1500&color=D9924E&center=true&vCenter=true&width=700&height=45&lines=Si+te+rindes+hoy%2C+%C2%BFde+qu%C3%A9+sirve+el+esfuerzo+de+ayer%3F" />
+<img src="quote.svg" width="100%" />
 
 <br>
 
