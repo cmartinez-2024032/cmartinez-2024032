@@ -22,7 +22,7 @@
 <br>
 
 <a id="perfil"></a>
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2E6E9E,100:3E4C59&height=110&section=header&text=PERFIL&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=Construir%20de%20punta%20a%20punta&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2E6E9E,100:3E4C59&height=110&section=header&text=PERFIL&fontSize=34&fontColor=E9E5DA&fontAlignY=descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
 
 <br>
 
