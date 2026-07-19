@@ -15,13 +15,9 @@
 ## 🧑‍💻 Sobre mí
 
 - 🎓 Estudiante de desarrollo de software, enfocado en construir aplicaciones **full stack** completas.
-- 🍽️ Desarrollé **Kinal Gourmet House**, un sistema de gestión de restaurante con autenticación JWT, roles y API REST — trabajado en equipo.
 - 🗣️ Construí **GestorDeOpiniones**, una API backend en Node.js para gestión de opiniones con autenticación y base de datos PostgreSQL.
 - 🔐 Participé en **AuthService**, un microservicio de autenticación con Docker y PostgreSQL.
-- 📱 Actualmente desarrollando una app en **React Native**.
-- ⚡ Me gusta resolver problemas de arquitectura: autenticación, roles, integración entre servicios y bases de datos.
-- 🌱 Aprendiendo constantemente sobre microservicios, Docker y buenas prácticas de backend.
-
+- 🌱 Aprendiendo constantemente 
 <br>
 
 ## 🛠️ Stack Tecnológico
@@ -128,7 +124,6 @@ App móvil en desarrollo activo, construida con React Native.
 
 <img src="https://raw.githubusercontent.com/cmartinez-2024032/cmartinez-2024032/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
-<sub>✨ Animación generada automáticamente con GitHub Actions — ver instrucciones abajo</sub>
 
 </div>
 
