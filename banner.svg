@@ -1,0 +1,135 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="rb"><rect width="1200" height="320" rx="18"/></clipPath>
+
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0B1F"/>
+      <stop offset="0.5" stop-color="#15123D"/>
+      <stop offset="1" stop-color="#0B0B1F"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaC" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#EC4899" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <filter id="blurSm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="blurLg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <filter id="glowNode" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#rb)">
+    <rect width="1200" height="320" fill="url(#bgGrad)"/>
+    <circle cx="160" cy="70" r="170" fill="url(#nebulaA)" filter="url(#blurLg)"/>
+    <circle cx="1060" cy="260" r="190" fill="url(#nebulaB)" filter="url(#blurLg)"/>
+    <circle cx="620" cy="20" r="140" fill="url(#nebulaC)" filter="url(#blurLg)"/>
+
+    <!-- static stars -->
+    <g fill="#F5F3FF">
+      <circle cx="50" cy="30" r="1.3" opacity="0.8"/>
+      <circle cx="95" cy="120" r="1" opacity="0.5"/>
+      <circle cx="150" cy="55" r="1.5" opacity="0.7"/>
+      <circle cx="210" cy="150" r="1" opacity="0.5"/>
+      <circle cx="260" cy="35" r="1.2" opacity="0.6"/>
+      <circle cx="330" cy="95" r="1" opacity="0.5"/>
+      <circle cx="380" cy="45" r="1.4" opacity="0.7"/>
+      <circle cx="470" cy="140" r="1" opacity="0.5"/>
+      <circle cx="520" cy="60" r="1.3" opacity="0.65"/>
+      <circle cx="580" cy="110" r="1" opacity="0.5"/>
+      <circle cx="700" cy="40" r="1.4" opacity="0.7"/>
+      <circle cx="760" cy="130" r="1" opacity="0.5"/>
+      <circle cx="830" cy="70" r="1.2" opacity="0.6"/>
+      <circle cx="890" cy="150" r="1" opacity="0.5"/>
+      <circle cx="950" cy="50" r="1.4" opacity="0.7"/>
+      <circle cx="1010" cy="110" r="1" opacity="0.5"/>
+      <circle cx="1080" cy="45" r="1.3" opacity="0.65"/>
+      <circle cx="1140" cy="130" r="1" opacity="0.5"/>
+      <circle cx="1160" cy="70" r="1.2" opacity="0.6"/>
+      <circle cx="30" cy="180" r="1" opacity="0.4"/>
+    </g>
+
+    <!-- twinkling stars -->
+    <circle cx="300" cy="50" r="1.6" fill="#FDE68A">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="90" r="1.6" fill="#FDE68A">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="150" r="1.4" fill="#FDE68A">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="20" r="1.4" fill="#FDE68A">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="90" r="1.4" fill="#FDE68A">
+      <animate attributeName="opacity" values="1;0.25;1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- shooting star -->
+    <g>
+      <line x1="0" y1="0" x2="70" y2="34" stroke="url(#textGrad)" stroke-width="2" stroke-linecap="round" opacity="0.9">
+        <animateTransform attributeName="transform" type="translate" values="-80,20; 1260,240; 1260,240" keyTimes="0;0.55;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.12;0.55" dur="6s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <!-- title -->
+    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="#8B5CF6" opacity="0.55" filter="url(#blurSm)">CRISTOPHER MARTINEZ</text>
+    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="url(#textGrad)">CRISTOPHER MARTINEZ</text>
+
+    <text x="600" y="188" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="3" fill="#C4B5FD">FULL-STACK DEVELOPER · GUATEMALA 🇬🇹</text>
+
+    <!-- constellation skill map -->
+    <g stroke="#4C3F91" stroke-width="1.2">
+      <line x1="110" y1="262" x2="270" y2="228"/>
+      <line x1="270" y1="228" x2="430" y2="268"/>
+      <line x1="430" y1="268" x2="600" y2="232"/>
+      <line x1="600" y1="232" x2="780" y2="268"/>
+      <line x1="780" y1="268" x2="950" y2="228"/>
+      <line x1="950" y1="228" x2="1100" y2="262"/>
+    </g>
+    <g font-family="ui-monospace, monospace" font-size="11" fill="#C4B5FD" text-anchor="middle">
+      <circle cx="110" cy="262" r="5" fill="#EC4899" filter="url(#glowNode)"/>
+      <text x="110" y="284">React</text>
+
+      <circle cx="270" cy="228" r="5" fill="#22D3EE" filter="url(#glowNode)"/>
+      <text x="270" y="250">Node.js</text>
+
+      <circle cx="430" cy="268" r="5" fill="#8B5CF6" filter="url(#glowNode)"/>
+      <text x="430" y="290">Spring</text>
+
+      <circle cx="600" cy="232" r="5" fill="#FDE68A" filter="url(#glowNode)"/>
+      <text x="600" y="254">JWT</text>
+
+      <circle cx="780" cy="268" r="5" fill="#22D3EE" filter="url(#glowNode)"/>
+      <text x="780" y="290">PostgreSQL</text>
+
+      <circle cx="950" cy="228" r="5" fill="#EC4899" filter="url(#glowNode)"/>
+      <text x="950" y="250">Docker</text>
+
+      <circle cx="1100" cy="262" r="5" fill="#8B5CF6" filter="url(#glowNode)"/>
+      <text x="1100" y="284">React Native</text>
+    </g>
+  </g>
+</svg>
