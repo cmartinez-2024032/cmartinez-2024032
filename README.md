@@ -8,25 +8,23 @@
 ![Status](https://img.shields.io/badge/Full--Stack%20Developer-1B2430?style=for-the-badge&logo=codeforces&logoColor=6FA8D8)
 ![Profile Views](https://komarev.com/ghpvc/?username=cmartinez-2024032&style=for-the-badge&color=1B2430&label=VISITAS)
 
+<br>
+
+<a href="#perfil"><img src="https://img.shields.io/badge/01%20·%20PERFIL-2E6E9E?style=for-the-badge&logoColor=white" /></a>
+<a href="#stack"><img src="https://img.shields.io/badge/02%20·%20STACK-3E4C59?style=for-the-badge&logoColor=white" /></a>
+<a href="#proyectos"><img src="https://img.shields.io/badge/03%20·%20PROYECTOS-C97C3D?style=for-the-badge&logoColor=white" /></a>
+<a href="#metricas"><img src="https://img.shields.io/badge/04%20·%20MÉTRICAS-1B2430?style=for-the-badge&logoColor=6FA8D8" /></a>
+
 </div>
 
----
-
-### 🧭 NAVEGACIÓN
-
-| | |
-|---|---|
-| **01** | Perfil — quién construye esto |
-| **02** | El stack — herramientas de trabajo |
-| **03** | Proyectos — cuatro entregas |
-| **04** | Métricas — la actividad detrás |
-
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:05070C,100:05070C&height=3" width="100%" />
 
 <br>
 
-## 👤 PERFIL
-### Construir de punta a punta
+<a id="perfil"></a>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2E6E9E,100:3E4C59&height=110&section=header&text=PERFIL&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=Construir%20de%20punta%20a%20punta&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
+
+<br>
 
 > No me interesa solo que la pantalla se vea bien. Me interesa lo que pasa detrás: cómo se autentica un usuario, quién tiene permiso de hacer qué, y cómo conversan los servicios entre sí.
 
@@ -34,8 +32,30 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
-## ⚙️ EL STACK
-### Herramientas de trabajo
+```
+$ whoami
+> Cristopher Martinez — Full-Stack Developer
+
+$ stack.status
+> [ONLINE]  React · Node.js · Spring · PostgreSQL · MongoDB
+
+$ current.focus
+> React Native · Microservicios · Docker · Backend patterns
+```
+
+<p align="left">
+<img src="https://img.shields.io/badge/REST%20APIs-1B2430?style=flat-square&logoColor=6FA8D8" />
+<img src="https://img.shields.io/badge/JWT%20Auth-1B2430?style=flat-square&logoColor=D9924E" />
+<img src="https://img.shields.io/badge/Microservices-1B2430?style=flat-square&logoColor=8FA6BA" />
+<img src="https://img.shields.io/badge/Clean%20Code-1B2430?style=flat-square&logoColor=6FA8D8" />
+</p>
+
+<br>
+
+<a id="stack"></a>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:C97C3D,100:2E6E9E&height=110&section=header&text=EL%20STACK&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=Herramientas%20de%20trabajo&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
+
+<br>
 
 <table width="100%">
 <tr>
@@ -76,61 +96,115 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
-## 🗂️ PROYECTOS
-### Cuatro entregas
+<a id="proyectos"></a>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:3E4C59,100:C97C3D&height=110&section=header&text=PROYECTOS&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=Cuatro%20entregas&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
 
 <br>
 
-> **01 — PROYECTO EN EQUIPO**
-> ### Kinal Gourmet House
->
-> Sistema de gestión de restaurante desarrollado en equipo, con autenticación JWT, roles diferenciados por tipo de usuario y una API REST completa sobre Docker y PostgreSQL.
->
-> ![Node.js](https://img.shields.io/badge/Node.js-1B2430?style=flat-square&logo=node.js&logoColor=339933)
-> ![JWT](https://img.shields.io/badge/JWT-1B2430?style=flat-square&logo=jsonwebtokens&logoColor=D9924E)
-> ![Docker](https://img.shields.io/badge/Docker-1B2430?style=flat-square&logo=docker&logoColor=2496ED)
-> ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
-> &nbsp; **[Ver repositorio ↗](https://github.com/cmartinez-2024032/Kinal-Gourmet)**
+<table width="100%">
+<tr>
+<td width="38%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=cmartinez-2024032&repo=Kinal-Gourmet&bg_color=0D1420&title_color=D9924E&text_color=CBD5E1&icon_color=6FA8D8&border_color=2E6E9E" width="100%" />
+</td>
+<td width="62%" valign="top">
+
+![EN EQUIPO](https://img.shields.io/badge/EN%20EQUIPO-C97C3D?style=for-the-badge&logoColor=white)
+
+#### Kinal Gourmet House
+
+Sistema de gestión de restaurante desarrollado en equipo, con autenticación JWT, roles diferenciados por tipo de usuario y una API REST completa sobre Docker y PostgreSQL.
+
+![Node.js](https://img.shields.io/badge/Node.js-1B2430?style=flat-square&logo=node.js&logoColor=339933)
+![JWT](https://img.shields.io/badge/JWT-1B2430?style=flat-square&logo=jsonwebtokens&logoColor=D9924E)
+![Docker](https://img.shields.io/badge/Docker-1B2430?style=flat-square&logo=docker&logoColor=2496ED)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
+
+**[Ver repositorio ↗](https://github.com/cmartinez-2024032/Kinal-Gourmet)**
+
+</td>
+</tr>
+</table>
 
 <br>
 
-> **02 — PROYECTO EN EQUIPO**
-> ### GestorDeOpiniones
->
-> API backend para la gestión de opiniones, con autenticación mediante JWT, variables de entorno configurables y persistencia en PostgreSQL.
->
-> ![Node.js](https://img.shields.io/badge/Node.js-1B2430?style=flat-square&logo=node.js&logoColor=339933)
-> ![JWT](https://img.shields.io/badge/JWT-1B2430?style=flat-square&logo=jsonwebtokens&logoColor=D9924E)
-> ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
-> &nbsp; **[Ver repositorio ↗](https://github.com/cmartinez-2024032/GestorDeOpiniones)**
+<table width="100%">
+<tr>
+<td width="38%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=cmartinez-2024032&repo=GestorDeOpiniones&bg_color=0D1420&title_color=D9924E&text_color=CBD5E1&icon_color=6FA8D8&border_color=2E6E9E" width="100%" />
+</td>
+<td width="62%" valign="top">
+
+![EN EQUIPO](https://img.shields.io/badge/EN%20EQUIPO-C97C3D?style=for-the-badge&logoColor=white)
+
+#### GestorDeOpiniones
+
+API backend para la gestión de opiniones, con autenticación mediante JWT, variables de entorno configurables y persistencia en PostgreSQL.
+
+![Node.js](https://img.shields.io/badge/Node.js-1B2430?style=flat-square&logo=node.js&logoColor=339933)
+![JWT](https://img.shields.io/badge/JWT-1B2430?style=flat-square&logo=jsonwebtokens&logoColor=D9924E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
+
+**[Ver repositorio ↗](https://github.com/cmartinez-2024032/GestorDeOpiniones)**
+
+</td>
+</tr>
+</table>
 
 <br>
 
-> **03 — PROYECTO EN EQUIPO**
-> ### AuthService
->
-> Microservicio de autenticación containerizado con Docker Compose y base de datos PostgreSQL, construido para un sistema de gestión deportiva.
->
-> ![Docker](https://img.shields.io/badge/Docker-1B2430?style=flat-square&logo=docker&logoColor=2496ED)
-> ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
-> ![Microservices](https://img.shields.io/badge/Microservices-1B2430?style=flat-square&logo=kubernetes&logoColor=8FA6BA)
-> &nbsp; **[Ver repositorio ↗](https://github.com/cmartinez-2024032/AuthService)**
+<table width="100%">
+<tr>
+<td width="38%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=cmartinez-2024032&repo=AuthService&bg_color=0D1420&title_color=D9924E&text_color=CBD5E1&icon_color=6FA8D8&border_color=2E6E9E" width="100%" />
+</td>
+<td width="62%" valign="top">
+
+![EN EQUIPO](https://img.shields.io/badge/EN%20EQUIPO-C97C3D?style=for-the-badge&logoColor=white)
+
+#### AuthService
+
+Microservicio de autenticación containerizado con Docker Compose y base de datos PostgreSQL, construido para un sistema de gestión deportiva.
+
+![Docker](https://img.shields.io/badge/Docker-1B2430?style=flat-square&logo=docker&logoColor=2496ED)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B2430?style=flat-square&logo=postgresql&logoColor=6FA8D8)
+![Microservices](https://img.shields.io/badge/Microservices-1B2430?style=flat-square&logo=kubernetes&logoColor=8FA6BA)
+
+**[Ver repositorio ↗](https://github.com/cmartinez-2024032/AuthService)**
+
+</td>
+</tr>
+</table>
 
 <br>
 
-> **04 — EN DESARROLLO**
-> ### App Móvil
->
-> Aplicación móvil construida con React Native, actualmente en progreso activo.
->
-> ![React Native](https://img.shields.io/badge/React%20Native-1B2430?style=flat-square&logo=react&logoColor=6FA8D8)
-> ![JavaScript](https://img.shields.io/badge/JavaScript-1B2430?style=flat-square&logo=javascript&logoColor=D9924E)
-> &nbsp; **[Ver repositorio ↗](https://github.com/cmartinez-2024032/ReactNative)**
+<table width="100%">
+<tr>
+<td width="38%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=cmartinez-2024032&repo=ReactNative&bg_color=0D1420&title_color=6FA8D8&text_color=CBD5E1&icon_color=D9924E&border_color=2E6E9E" width="100%" />
+</td>
+<td width="62%" valign="top">
+
+![EN DESARROLLO](https://img.shields.io/badge/EN%20DESARROLLO-2E6E9E?style=for-the-badge&logoColor=white)
+
+#### App Móvil
+
+Aplicación móvil construida con React Native, actualmente en progreso activo.
+
+![React Native](https://img.shields.io/badge/React%20Native-1B2430?style=flat-square&logo=react&logoColor=6FA8D8)
+![JavaScript](https://img.shields.io/badge/JavaScript-1B2430?style=flat-square&logo=javascript&logoColor=D9924E)
+
+**[Ver repositorio ↗](https://github.com/cmartinez-2024032/ReactNative)**
+
+</td>
+</tr>
+</table>
 
 <br>
 
-## 📊 MÉTRICAS
-### La actividad detrás
+<a id="metricas"></a>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2E6E9E,100:C97C3D&height=110&section=header&text=MÉTRICAS&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=La%20actividad%20detrás&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
+
+<br>
 
 <div align="center">
 
@@ -147,7 +221,7 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070C,100:0D1420&height=90&section=footer" width="100%" />
 
 <div align="center">
 <sub>⚙️ Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
