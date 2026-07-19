@@ -15,9 +15,13 @@
 ## 🧑‍💻 Sobre mí
 
 - 🎓 Estudiante de desarrollo de software, enfocado en construir aplicaciones **full stack** completas.
-- 🗣️ Construí **GestorDeOpiniones**, una API backend en Node.js para gestión de opiniones con autenticación y base de datos PostgreSQL.
+- 🍽️ Colaboré en el desarrollo de **Kinal Gourmet House**, un sistema de gestión de restaurante en equipo, con autenticación JWT, roles y API REST.
+- 🗣️ Trabajé en **GestorDeOpiniones**, una API backend en Node.js para gestión de opiniones, con autenticación y base de datos PostgreSQL.
 - 🔐 Participé en **AuthService**, un microservicio de autenticación con Docker y PostgreSQL.
-- 🌱 Aprendiendo constantemente 
+- 📱 Formo parte del desarrollo de una app en **React Native**, actualmente en progreso.
+- ⚡ Me gusta resolver problemas de arquitectura: autenticación, roles, integración entre servicios y bases de datos.
+- 🌱 Aprendiendo constantemente sobre microservicios, Docker y buenas prácticas de backend.
+
 <br>
 
 ## 🛠️ Stack Tecnológico
@@ -69,7 +73,7 @@ Sistema de gestión de restaurante desarrollado **en equipo**: autenticación JW
 <td width="50%" valign="top">
 
 ### 🗣️ GestorDeOpiniones
-API backend para gestión de opiniones, con autenticación mediante JWT, variables de entorno configurables y base de datos PostgreSQL.
+API backend para gestión de opiniones, desarrollada **en equipo**, con autenticación mediante JWT, variables de entorno configurables y base de datos PostgreSQL.
 
 `Node.js` `JWT` `PostgreSQL`
 
@@ -81,7 +85,7 @@ API backend para gestión de opiniones, con autenticación mediante JWT, variabl
 <td width="50%" valign="top">
 
 ### 🔐 AuthService
-Microservicio de autenticación containerizado con Docker Compose y base de datos PostgreSQL, desarrollado para un proyecto de gestión deportiva.
+Microservicio de autenticación **en equipo**, containerizado con Docker Compose y base de datos PostgreSQL, desarrollado para un proyecto de gestión deportiva.
 
 `Docker` `PostgreSQL` `Microservices`
 
@@ -91,7 +95,7 @@ Microservicio de autenticación containerizado con Docker Compose y base de dato
 <td width="50%" valign="top">
 
 ### 📱 ReactNative
-App móvil en desarrollo activo, construida con React Native.
+App móvil **en desarrollo**, construida con React Native.
 
 `React Native` `JavaScript`
 
@@ -107,12 +111,12 @@ App móvil en desarrollo activo, construida con React Native.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=cmartinez-2024032&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0F2027&title_color=5EEAD4&icon_color=5EEAD4&text_color=94A3B8&count_private=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&theme=dark&hide_border=true&background=0F2027&stroke=2C5364&ring=5EEAD4&fire=5EEAD4&currStreakLabel=5EEAD4" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api?username=cmartinez-2024032&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&theme=tokyonight&hide_border=true" width="49%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0F2027&title_color=5EEAD4&text_color=94A3B8" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=cmartinez-2024032&theme=darkhub&no-frame=true&column=4&margin-w=10&margin-h=10" width="90%" />
+<img src="https://github-profile-trophy.vercel.app/?username=cmartinez-2024032&theme=tokyonight&no-frame=true&column=4&margin-w=10&margin-h=10" width="90%" />
 
 </div>
 
@@ -124,6 +128,15 @@ App móvil en desarrollo activo, construida con React Native.
 
 <img src="https://raw.githubusercontent.com/cmartinez-2024032/cmartinez-2024032/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
+<sub>✨ Animación generada automáticamente con GitHub Actions — ver instrucciones abajo</sub>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 💬 "Cuanto más te cuesta lograr algo, mayor será la recompensa obtenida"
 
 </div>
 
