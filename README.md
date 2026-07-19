@@ -145,7 +145,10 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br><br>
 
-<img src="https://github-profile-trophy-winning.vercel.app/?username=cmartinez-2024032&theme=algolia&no-frame=true&column=-1&margin-w=8&margin-h=8" width="100%" />
+<img src="https://img.shields.io/badge/🏆_151_contribuciones-1B2430?style=for-the-badge&logoColor=D9924E" />
+<img src="https://img.shields.io/badge/🔥_138_commits-1B2430?style=for-the-badge&logoColor=6FA8D8" />
+<img src="https://img.shields.io/badge/📦_6_repos_contribuidos-1B2430?style=for-the-badge&logoColor=8FA6BA" />
+<img src="https://img.shields.io/badge/🔀_2_PRs-1B2430?style=for-the-badge&logoColor=D9924E" />
 
 <br><br>
 
