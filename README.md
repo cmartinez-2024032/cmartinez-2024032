@@ -1,31 +1,29 @@
 <div align="center">
 
-<sub>EDICIÓN ESTUDIANTE · GUATEMALA · 2026</sub>
+<img src="banner.svg" width="100%" />
 
-# CRISTOPHER MARTINEZ
+<br>
 
-### *Full-stack developer construyendo sistemas de un extremo a otro — interfaz, servicios y datos.*
-
-<sub>POR C. MARTINEZ &nbsp;·&nbsp; NÚMERO 01 &nbsp;·&nbsp; @cmartinez-2024032</sub>
+<sub>🌌 FULL-STACK DEVELOPER · GUATEMALA 🇬🇹 · @cmartinez-2024032</sub>
 
 </div>
 
 ---
 
-### EN ESTA EDICIÓN
+### 🛰️ NAVEGACIÓN
 
 | | |
 |---|---|
-| **03** | Perfil — quién construye esto |
-| **05** | El stack — herramientas de trabajo |
-| **07** | Proyectos — cuatro entregas |
-| **11** | Métricas — la actividad detrás |
+| **01** | Perfil — quién construye esto |
+| **02** | El stack — herramientas de trabajo |
+| **03** | Proyectos — cuatro entregas |
+| **04** | Métricas — la actividad detrás |
 
 ---
 
 <br>
 
-## PERFIL
+## 👨‍🚀 PERFIL
 ### Construir de punta a punta
 
 > No me interesa solo que la pantalla se vea bien. Me interesa lo que pasa detrás: cómo se autentica un usuario, quién tiene permiso de hacer qué, y cómo conversan los servicios entre sí.
@@ -34,41 +32,41 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
-## EL STACK
+## 🪐 EL STACK
 ### Herramientas de trabajo
 
 <table width="100%">
 <tr>
 <td width="25%" valign="top">
 
-**COLUMNA A**
-<sub>CLIENTE</sub>
+**CLIENTE**
+<sub>🎨 interfaz</sub>
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css&theme=light" />
-
-</td>
-<td width="25%" valign="top">
-
-**COLUMNA B**
-<sub>SERVIDOR</sub>
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java&theme=light" />
+<img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css&theme=dark" />
 
 </td>
 <td width="25%" valign="top">
 
-**COLUMNA C**
-<sub>DATOS</sub>
+**SERVIDOR**
+<sub>⚙️ servicios</sub>
 
-<img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=light" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java&theme=dark" />
 
 </td>
 <td width="25%" valign="top">
 
-**COLUMNA D**
-<sub>TALLER</sub>
+**DATOS**
+<sub>🗄️ persistencia</sub>
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman&theme=light" />
+<img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=dark" />
+
+</td>
+<td width="25%" valign="top">
+
+**TALLER**
+<sub>🛠️ herramientas</sub>
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman&theme=dark" />
 
 </td>
 </tr>
@@ -76,7 +74,7 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br>
 
-## PROYECTOS
+## 🌠 PROYECTOS
 ### Cuatro entregas
 
 <br>
@@ -121,15 +119,15 @@ Aplicación móvil construida con React Native, actualmente en progreso activo.
 
 <br>
 
-## MÉTRICAS
+## ✨ MÉTRICAS
 ### La actividad detrás
 
 <div align="center">
 
-<img src="https://github-readme-stats-six-murex.vercel.app/api?username=cmartinez-2024032&show_icons=true&count_private=true&hide_border=true&bg_color=E9E5DA&title_color=9C2B2B&text_color=1B1B1B&icon_color=6B6459" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&hide_border=true&background=E9E5DA&ring=9C2B2B&fire=9C2B2B&currStreakLabel=9C2B2B&sideLabels=1B1B1B&currStreakNum=1B1B1B&sideNums=1B1B1B&dates=6B6459&stroke=E9E5DA" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api?username=cmartinez-2024032&show_icons=true&count_private=true&hide_border=true&bg_color=0B0B1F&title_color=EC4899&text_color=C4B5FD&icon_color=22D3EE" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cmartinez-2024032&hide_border=true&background=0B0B1F&ring=8B5CF6&fire=EC4899&currStreakLabel=22D3EE&sideLabels=C4B5FD&currStreakNum=F5F3FF&sideNums=C4B5FD&dates=6B6459&stroke=0B0B1F" width="49%" />
 
-<img src="https://github-readme-stats-six-murex.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&hide_border=true&bg_color=E9E5DA&title_color=9C2B2B&text_color=1B1B1B" width="49%" />
+<img src="https://github-readme-stats-six-murex.vercel.app/api/top-langs/?username=cmartinez-2024032&layout=compact&hide_border=true&bg_color=0B0B1F&title_color=EC4899&text_color=C4B5FD" width="49%" />
 
 <br><br>
 
@@ -142,5 +140,5 @@ Aplicación móvil construida con React Native, actualmente en progreso activo.
 ---
 
 <div align="center">
-<sub>Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
+<sub>🌌 Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
 </div>
