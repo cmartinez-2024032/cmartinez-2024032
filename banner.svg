@@ -3,28 +3,34 @@
     <clipPath id="rb"><rect width="1200" height="320" rx="18"/></clipPath>
 
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B0B1F"/>
-      <stop offset="0.5" stop-color="#15123D"/>
-      <stop offset="1" stop-color="#0B0B1F"/>
+      <stop offset="0" stop-color="#05070C"/>
+      <stop offset="0.5" stop-color="#0D1420"/>
+      <stop offset="1" stop-color="#05070C"/>
     </linearGradient>
 
     <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2E6E9E" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2E6E9E" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0" stop-color="#C97C3D" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#C97C3D" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaC" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#EC4899" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+      <stop offset="0" stop-color="#3E4C59" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#3E4C59" stop-opacity="0"/>
     </radialGradient>
 
     <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#A78BFA"/>
-      <stop offset="0.5" stop-color="#EC4899"/>
-      <stop offset="1" stop-color="#22D3EE"/>
+      <stop offset="0" stop-color="#6FA8D8"/>
+      <stop offset="0.5" stop-color="#DCE3EA"/>
+      <stop offset="1" stop-color="#D9924E"/>
+    </linearGradient>
+
+    <linearGradient id="hudGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3E7CA6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3E7CA6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3E7CA6" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="blurSm" x="-50%" y="-50%" width="200%" height="200%">
@@ -37,52 +43,57 @@
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+
+    <pattern id="gridPat" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#2A3B4D" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
   </defs>
 
   <g clip-path="url(#rb)">
     <rect width="1200" height="320" fill="url(#bgGrad)"/>
+    <rect width="1200" height="320" fill="url(#gridPat)"/>
     <circle cx="160" cy="70" r="170" fill="url(#nebulaA)" filter="url(#blurLg)"/>
     <circle cx="1060" cy="260" r="190" fill="url(#nebulaB)" filter="url(#blurLg)"/>
     <circle cx="620" cy="20" r="140" fill="url(#nebulaC)" filter="url(#blurLg)"/>
 
     <!-- static stars -->
-    <g fill="#F5F3FF">
-      <circle cx="50" cy="30" r="1.3" opacity="0.8"/>
-      <circle cx="95" cy="120" r="1" opacity="0.5"/>
-      <circle cx="150" cy="55" r="1.5" opacity="0.7"/>
-      <circle cx="210" cy="150" r="1" opacity="0.5"/>
-      <circle cx="260" cy="35" r="1.2" opacity="0.6"/>
-      <circle cx="330" cy="95" r="1" opacity="0.5"/>
-      <circle cx="380" cy="45" r="1.4" opacity="0.7"/>
-      <circle cx="470" cy="140" r="1" opacity="0.5"/>
-      <circle cx="520" cy="60" r="1.3" opacity="0.65"/>
-      <circle cx="580" cy="110" r="1" opacity="0.5"/>
-      <circle cx="700" cy="40" r="1.4" opacity="0.7"/>
-      <circle cx="760" cy="130" r="1" opacity="0.5"/>
-      <circle cx="830" cy="70" r="1.2" opacity="0.6"/>
-      <circle cx="890" cy="150" r="1" opacity="0.5"/>
-      <circle cx="950" cy="50" r="1.4" opacity="0.7"/>
-      <circle cx="1010" cy="110" r="1" opacity="0.5"/>
-      <circle cx="1080" cy="45" r="1.3" opacity="0.65"/>
-      <circle cx="1140" cy="130" r="1" opacity="0.5"/>
-      <circle cx="1160" cy="70" r="1.2" opacity="0.6"/>
-      <circle cx="30" cy="180" r="1" opacity="0.4"/>
+    <g fill="#CBD5E1">
+      <circle cx="50" cy="30" r="1.3" opacity="0.7"/>
+      <circle cx="95" cy="120" r="1" opacity="0.4"/>
+      <circle cx="150" cy="55" r="1.5" opacity="0.6"/>
+      <circle cx="210" cy="150" r="1" opacity="0.4"/>
+      <circle cx="260" cy="35" r="1.2" opacity="0.5"/>
+      <circle cx="330" cy="95" r="1" opacity="0.4"/>
+      <circle cx="380" cy="45" r="1.4" opacity="0.6"/>
+      <circle cx="470" cy="140" r="1" opacity="0.4"/>
+      <circle cx="520" cy="60" r="1.3" opacity="0.55"/>
+      <circle cx="580" cy="110" r="1" opacity="0.4"/>
+      <circle cx="700" cy="40" r="1.4" opacity="0.6"/>
+      <circle cx="760" cy="130" r="1" opacity="0.4"/>
+      <circle cx="830" cy="70" r="1.2" opacity="0.5"/>
+      <circle cx="890" cy="150" r="1" opacity="0.4"/>
+      <circle cx="950" cy="50" r="1.4" opacity="0.6"/>
+      <circle cx="1010" cy="110" r="1" opacity="0.4"/>
+      <circle cx="1080" cy="45" r="1.3" opacity="0.55"/>
+      <circle cx="1140" cy="130" r="1" opacity="0.4"/>
+      <circle cx="1160" cy="70" r="1.2" opacity="0.5"/>
+      <circle cx="30" cy="180" r="1" opacity="0.35"/>
     </g>
 
     <!-- twinkling stars -->
-    <circle cx="300" cy="50" r="1.6" fill="#FDE68A">
+    <circle cx="300" cy="50" r="1.6" fill="#D9924E">
       <animate attributeName="opacity" values="1;0.15;1" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="900" cy="90" r="1.6" fill="#FDE68A">
+    <circle cx="900" cy="90" r="1.6" fill="#6FA8D8">
       <animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="650" cy="150" r="1.4" fill="#FDE68A">
+    <circle cx="650" cy="150" r="1.4" fill="#D9924E">
       <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1120" cy="20" r="1.4" fill="#FDE68A">
+    <circle cx="1120" cy="20" r="1.4" fill="#6FA8D8">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="120" cy="90" r="1.4" fill="#FDE68A">
+    <circle cx="120" cy="90" r="1.4" fill="#6FA8D8">
       <animate attributeName="opacity" values="1;0.25;1" dur="3.4s" repeatCount="indefinite"/>
     </circle>
 
@@ -94,14 +105,26 @@
       </line>
     </g>
 
+    <!-- HUD corner brackets -->
+    <g stroke="#4C6478" stroke-width="1.5" fill="none" opacity="0.8">
+      <path d="M26 20 L26 44 M26 20 L50 20"/>
+      <path d="M1174 20 L1174 44 M1174 20 L1150 20"/>
+      <path d="M26 300 L26 276 M26 300 L50 300"/>
+      <path d="M1174 300 L1174 276 M1174 300 L1150 300"/>
+    </g>
+    <line x1="70" y1="26" x2="410" y2="26" stroke="url(#hudGrad)" stroke-width="1"/>
+    <line x1="790" y1="26" x2="1130" y2="26" stroke="url(#hudGrad)" stroke-width="1"/>
+    <text x="1174" y="40" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#4C6478">SYS.ONLINE</text>
+    <text x="26" y="40" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#4C6478">GT-08</text>
+
     <!-- title -->
-    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="#8B5CF6" opacity="0.55" filter="url(#blurSm)">CRISTOPHER MARTINEZ</text>
+    <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="#2E6E9E" opacity="0.55" filter="url(#blurSm)">CRISTOPHER MARTINEZ</text>
     <text x="600" y="152" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, monospace" font-size="52" font-weight="800" letter-spacing="1" fill="url(#textGrad)">CRISTOPHER MARTINEZ</text>
 
-    <text x="600" y="188" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="3" fill="#C4B5FD">FULL-STACK DEVELOPER · GUATEMALA 🇬🇹</text>
+    <text x="600" y="188" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="3" fill="#8FA6BA">FULL-STACK DEVELOPER · GUATEMALA 🇬🇹</text>
 
     <!-- constellation skill map -->
-    <g stroke="#4C3F91" stroke-width="1.2">
+    <g stroke="#33475A" stroke-width="1.2">
       <line x1="110" y1="262" x2="270" y2="228"/>
       <line x1="270" y1="228" x2="430" y2="268"/>
       <line x1="430" y1="268" x2="600" y2="232"/>
@@ -109,26 +132,30 @@
       <line x1="780" y1="268" x2="950" y2="228"/>
       <line x1="950" y1="228" x2="1100" y2="262"/>
     </g>
-    <g font-family="ui-monospace, monospace" font-size="11" fill="#C4B5FD" text-anchor="middle">
-      <circle cx="110" cy="262" r="5" fill="#EC4899" filter="url(#glowNode)"/>
+    <g font-family="ui-monospace, monospace" font-size="11" fill="#9FB4C7" text-anchor="middle">
+      <circle cx="110" cy="262" r="5" fill="#D9924E" filter="url(#glowNode)"/>
       <text x="110" y="284">React</text>
 
-      <circle cx="270" cy="228" r="5" fill="#22D3EE" filter="url(#glowNode)"/>
+      <circle cx="270" cy="228" r="5" fill="#6FA8D8" filter="url(#glowNode)"/>
       <text x="270" y="250">Node.js</text>
 
-      <circle cx="430" cy="268" r="5" fill="#8B5CF6" filter="url(#glowNode)"/>
+      <circle cx="430" cy="268" r="5" fill="#8FA6BA" filter="url(#glowNode)"/>
       <text x="430" y="290">Spring</text>
 
-      <circle cx="600" cy="232" r="5" fill="#FDE68A" filter="url(#glowNode)"/>
+      <circle cx="600" cy="232" r="10" fill="none" stroke="#D9924E" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="6;14;6" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="232" r="5" fill="#D9924E" filter="url(#glowNode)"/>
       <text x="600" y="254">JWT</text>
 
-      <circle cx="780" cy="268" r="5" fill="#22D3EE" filter="url(#glowNode)"/>
+      <circle cx="780" cy="268" r="5" fill="#6FA8D8" filter="url(#glowNode)"/>
       <text x="780" y="290">PostgreSQL</text>
 
-      <circle cx="950" cy="228" r="5" fill="#EC4899" filter="url(#glowNode)"/>
+      <circle cx="950" cy="228" r="5" fill="#D9924E" filter="url(#glowNode)"/>
       <text x="950" y="250">Docker</text>
 
-      <circle cx="1100" cy="262" r="5" fill="#8B5CF6" filter="url(#glowNode)"/>
+      <circle cx="1100" cy="262" r="5" fill="#8FA6BA" filter="url(#glowNode)"/>
       <text x="1100" y="284">React Native</text>
     </g>
   </g>
