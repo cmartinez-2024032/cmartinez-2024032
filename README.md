@@ -1,9 +1,10 @@
 <div align="center">
 
-<!-- Typing intro -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hola%2C+soy+Criss+Mart%C3%ADnez;Full+Stack+Developer;React+%7C+Node.js+%7C+Spring+Boot;Construyendo+cosas+que+funcionan+%F0%9F%9A%80" alt="Typing SVG" />
+<!-- Banner estilo terminal: ícono + efecto de escritura -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" width="80" height="80" align="left" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=5EEAD4&background=0D1B2AFF&center=true&vCenter=true&width=650&height=90&lines=Hola%2C+soy+Cristopher+Martinez;Full+Stack+Developer;React+%7C+Node.js+%7C+Spring+Boot;Construyendo+cosas+que+funcionan+%F0%9F%9A%80" alt="Typing SVG" />
 
-### 👋 Bienvenido a mi perfil
+<br clear="left"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU-USUARIO)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-email@gmail.com)
@@ -18,10 +19,10 @@
 ## 🧑‍💻 Sobre mí
 
 - 🎓 Estudiante de desarrollo de software, enfocado en construir aplicaciones **full stack** de punta a punta.
-- 🏦 Desarrollé **KinalBank**, un sistema bancario completo (backend + panel admin web + app móvil).
-- ♻️ Construí **EcoKinal**, una plataforma de reciclaje con arquitectura de microservicios y gamificación.
-- 🍽️ Diseñé **KinalGourmetMovil**, una app móvil de restaurante con React Native y Expo.
-- ⚙️ Actualmente trabajando en **FLUX**, un proyecto de microservicios con Spring Boot.
+- 🏦 Participé en el desarrollo de **KinalBank**, un sistema bancario en equipo (aporté en backend y en la app móvil).
+- ♻️ Colaboré en **EcoKinal**, una plataforma de reciclaje con microservicios, trabajando principalmente en la gamificación y la comunicación entre servicios.
+- 🍽️ Trabajé en **KinalGourmetMovil**, una app móvil de restaurante, enfocándome en la depuración de pantallas y flujo de pedidos.
+- ⚙️ Actualmente colaboro en **FLUX**, un proyecto de microservicios con Spring Boot, a cargo del UserService.
 - 🌱 Aprendiendo constantemente sobre arquitectura de microservicios, autenticación segura y buenas prácticas de backend.
 - ⚡ Me gusta resolver bugs difíciles: fallas de navegación, integraciones rotas, lógica de negocio incompleta.
 - 📫 Contactame por LinkedIn o correo — siempre abierto a colaborar en proyectos o prácticas profesionales.
@@ -67,7 +68,7 @@
 <td width="50%" valign="top">
 
 ### 🏦 KinalBank
-Sistema bancario completo: backend en Node.js/Express, panel administrativo web en React y app móvil en React Native. Incluye gestión de productos, acumulación de puntos y roles de administrador.
+Sistema bancario desarrollado **en equipo**: backend en Node.js/Express, panel administrativo web en React y app móvil en React Native. Colaboré en la lógica de acumulación de puntos, la corrección de bugs del backend y la gestión de productos desde la app móvil.
 
 **Tech:** `Node.js` `Express` `React` `React Native`
 
@@ -77,7 +78,7 @@ Sistema bancario completo: backend en Node.js/Express, panel administrativo web 
 <td width="50%" valign="top">
 
 ### ♻️ EcoKinal
-Plataforma de reciclaje con arquitectura de microservicios (Auth, Gamification, Forum, Detector). Sistema de retos diarios, rankings en tiempo real y comunicación entre servicios.
+Plataforma de reciclaje con arquitectura de microservicios (Auth, Gamification, Forum, Detector), construida **en equipo**. Mi aporte se centró en el sistema de retos diarios, los rankings en tiempo real y la comunicación entre servicios.
 
 **Tech:** `React` `Vite` `Zustand` `Microservices`
 
@@ -89,7 +90,7 @@ Plataforma de reciclaje con arquitectura de microservicios (Auth, Gamification, 
 <td width="50%" valign="top">
 
 ### 🍽️ KinalGourmetMovil
-App móvil de restaurante construida con React Native y Expo. Gestión de estado con Zustand, navegación fluida y pantallas de detalle de pedidos.
+App móvil de restaurante construida **en equipo** con React Native y Expo. Trabajé en la gestión de estado con Zustand y en la depuración de la pantalla de detalle de pedidos.
 
 **Tech:** `React Native` `Expo` `Zustand`
 
@@ -99,7 +100,7 @@ App móvil de restaurante construida con React Native y Expo. Gestión de estado
 <td width="50%" valign="top">
 
 ### ⚙️ FLUX — UserService
-Proyecto de microservicios con Spring Boot. Incluye manejo de excepciones, DTOs y caché con Redis.
+Proyecto de microservicios en equipo con Spring Boot. Estuve a cargo del UserService: manejo de excepciones, DTOs y caché con Redis.
 
 **Tech:** `Spring Boot` `Java` `Redis` `Microservices`
 
