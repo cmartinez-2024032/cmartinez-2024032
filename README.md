@@ -13,7 +13,8 @@
 <a href="#perfil"><img src="https://img.shields.io/badge/01%20·%20PERFIL-2E6E9E?style=for-the-badge&logoColor=white" /></a>
 <a href="#stack"><img src="https://img.shields.io/badge/02%20·%20STACK-3E4C59?style=for-the-badge&logoColor=white" /></a>
 <a href="#proyectos"><img src="https://img.shields.io/badge/03%20·%20PROYECTOS-C97C3D?style=for-the-badge&logoColor=white" /></a>
-<a href="#metricas"><img src="https://img.shields.io/badge/04%20·%20MÉTRICAS-1B2430?style=for-the-badge&logoColor=6FA8D8" /></a>
+<a href="#certificaciones"><img src="https://img.shields.io/badge/04%20·%20CERTIFICACIONES-2E6E9E?style=for-the-badge&logoColor=white" /></a>
+<a href="#metricas"><img src="https://img.shields.io/badge/05%20·%20MÉTRICAS-1B2430?style=for-the-badge&logoColor=6FA8D8" /></a>
 
 </div>
 
@@ -128,6 +129,26 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 > ![Microservices](https://img.shields.io/badge/Microservices-1B2430?style=flat-square&logo=kubernetes&logoColor=8FA6BA)
 >
 > **[Ver repositorio ↗](https://github.com/cmartinez-2024032/AuthService)**
+
+<br>
+
+<a id="certificaciones"></a>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2E6E9E,100:C97C3D&height=110&section=header&text=CERTIFICACIONES&fontSize=34&fontColor=E9E5DA&fontAlignY=40&desc=Formación%20complementaria&descSize=16&descAlignY=62&animation=fadeIn" width="100%" />
+
+<br>
+
+> ![Cisco Networking Academy](https://img.shields.io/badge/Cisco%20Networking%20Academy-1B2430?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
+>
+> ### IT Essentials
+>
+> Curso administrado por Cisco Networking Academy a través de KINAL. Cubre armado, reparación y mantenimiento de computadoras, sistemas operativos (Windows, Linux, OS X), redes LAN/Internet, dispositivos móviles y seguridad básica de usuario, datos y red.
+>
+> ![Hardware](https://img.shields.io/badge/Hardware-1B2430?style=flat-square&logoColor=8FA6BA)
+> ![Networking](https://img.shields.io/badge/Networking-1B2430?style=flat-square&logo=cisco&logoColor=1BA0D7)
+> ![Sistemas Operativos](https://img.shields.io/badge/Sistemas%20Operativos-1B2430?style=flat-square&logoColor=6FA8D8)
+> ![Seguridad](https://img.shields.io/badge/Seguridad-1B2430?style=flat-square&logoColor=D9924E)
+>
+> <sub>📍 Guatemala · KINAL &nbsp;·&nbsp; 📅 28/08/2024 &nbsp;·&nbsp; 👤 Instructor: Alvaro Calderón</sub>
 
 <br>
 
