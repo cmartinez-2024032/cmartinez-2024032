@@ -145,7 +145,7 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=cmartinez-2024032&theme=onedark&no-frame=true&no-bg=true&column=-1&margin-w=8&margin-h=8" width="100%" />
+<img src="https://github-profile-trophy.vercel.app/?username=cmartinez-2024032&theme=algolia&no-frame=true&column=-1&margin-w=8&margin-h=8" width="100%" />
 
 <br><br>
 
@@ -166,10 +166,6 @@ Estudiante de desarrollo de software enfocado en aplicaciones **full stack** com
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070C,100:0D1420&height=90&section=footer" width="100%" />
 
 <div align="center">
-
-<img src="quote.svg" width="100%" />
-
-<br>
 
 <sub>⚙️ Compuesto en Markdown · Impreso digitalmente en GitHub · Guatemala, 2026</sub>
 </div>
